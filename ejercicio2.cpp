@@ -2,13 +2,16 @@
 
 using namespace std;
 
-void evaltriangulo(int ladoA , int ladoB, int ladoC){
-    if (ladoA == ladoB && ladoB == ladoC){
-        cout<< "triangulo equilatero" << endl;
-        
-     } else if (ladoA == ladoB || ladoB == ladoC || ladoA == ladoC){
-        cout << "triangulo isosceles"<< endl;
-     }   
+void evaltriangulo(int ladoA, int ladoB, int ladoC)
+{
+    if (ladoA == ladoB && ladoB == ladoC)
+    {
+        cout << "triangulo equilatero" << endl;
+    }
+    else if (ladoA == ladoB || ladoB == ladoC || ladoA == ladoC)
+    {
+        cout << "triangulo isosceles" << endl;
+    }
 }
 
 int main(int argc, char const *argv[])
